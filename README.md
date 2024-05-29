@@ -1,6 +1,6 @@
 # PracticesCourseKotlinBootcamp
 
-Bienvenido al repositorio **PracticesCourseKotlinBootcamp**. Este repositorio contiene las prácticas y ejercicios realizados durante el curso de **Kotlin Bootcamp for Programmers** ofrecido por **Google Developer** en **Udacity**.
+Bienvenido al repositorio **PracticesCourseKotlinBootcamp**. Este repositorio contiene las prácticas y ejercicios realizados durante el curso de **Kotlin Bootcamp for Programmers** ofrecido por **Google Developer** en **Udacity** las mismas son realizadas por el estudiante **ERICK ROSARIO ALCANTARA** para la materia **PROGRAMACIÓN MÓVIL 1**.
 
 ## Descripción
 
