@@ -2,6 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="practice_2" target="19" />
+      <module name="practice_2.main" target="19" />
+      <module name="practice_2.test" target="19" />
+      <module name="practice_2_1" target="19" />
+      <module name="practice_2_1.main" target="19" />
+      <module name="practice_2_1.test" target="19" />
       <module name="pratice_1" target="19" />
       <module name="pratice_1.main" target="19" />
       <module name="pratice_1.test" target="19" />
