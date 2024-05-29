@@ -24,13 +24,10 @@ El repositorio está estructurado en carpetas que corresponden a las diferentes 
 racticesCourseKotlinBootcamp/
 ├── Practice1/
 │ ├── main.kt
-│ └── README.md
 ├── Practice2/
 │ ├── main.kt
-│ └── README.md
-├── Practice3/
+│ ├── Practice3/
 │ ├── main.kt
-│ └── README.md
 └── README.md
 
 
