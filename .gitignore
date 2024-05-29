@@ -6,7 +6,7 @@ build/
 # Kotlin
 *.iml
 .idea/
-*.idea/
+*.idea/*
 *.iws
 *.ipr
 *.bak
