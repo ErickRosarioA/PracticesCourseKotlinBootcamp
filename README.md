@@ -21,4 +21,38 @@ El repositorio está estructurado en carpetas que corresponden a las diferentes 
 - **JetBrains IDEs**: IDEs adicionales de JetBrains como IntelliJ IDEA que son compatibles con el desarrollo en Kotlin.
 
 ## Estructura del Repositorio
+racticesCourseKotlinBootcamp/
+├── Practice1/
+│ ├── main.kt
+│ └── README.md
+├── Practice2/
+│ ├── main.kt
+│ └── README.md
+├── Practice3/
+│ ├── main.kt
+│ └── README.md
+└── README.md
 
+
+Cada carpeta de práctica contiene el archivo `main.kt` correspondiente, junto con su propio README.md que explica detalles específicos de la práctica.
+
+## Cómo Empezar
+
+Para clonar y trabajar con este repositorio, sigue estos pasos:
+
+1. **Clona el repositorio**:
+   ```sh
+   git clone https://github.com/tu-usuario/PracticesCourseKotlinBootcamp.git
+Abre el proyecto en Android Studio:
+
+Ve a File > Open y selecciona el directorio del proyecto clonado.
+
+Ejecuta los ejemplos:
+
+Navega a la carpeta de la práctica que deseas ejecutar y abre el archivo main.kt correspondiente.
+Sigue las instrucciones específicas en el README.md de cada práctica para configurar y ejecutar los ejemplos.
+
+Contacto
+Para cualquier pregunta o comentario, puedes contactarme a través de erickrosario08@outlook.com
+
+¡Gracias por visitar y colaborar en PracticesCourseKotlinBootcamp!
