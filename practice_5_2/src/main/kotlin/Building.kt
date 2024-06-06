@@ -1,7 +1,7 @@
 package org.example
 
 // Clase genérica Building
-class Building<out T : BaseBuildingMaterial>(private val buildingMaterial: T) {
+class Building<out T: BaseBuildingMaterial>(val buildingMaterial: T) {
 
     // Propiedad que define la cantidad base de materiales necesarios
     val baseMaterialsNeeded: Int = 100
