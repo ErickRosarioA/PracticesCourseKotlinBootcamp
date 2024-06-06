@@ -1,6 +1,5 @@
 package org.example
-
-class Book(val title: String, val author: String, val year: Int) {
+class Book(val title: String, val author: String, val year: Int, var pages: Int) {
 
     // Método canBorrow() que devuelve true o false dependiendo de si un usuario ha alcanzado el número máximo de libros prestados
     fun canBorrow(currentlyBorrowed: Int): Boolean {

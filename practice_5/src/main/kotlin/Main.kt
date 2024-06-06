@@ -3,7 +3,7 @@ package org.example
 // Función main para crear una instancia de Book y mostrar la información
 fun main() {
     // Crear una instancia de Book
-    val book = Book("Romeo and Juliet", "William Shakespeare", 1597)
+    val book = Book("Romeo and Juliet", "William Shakespeare", 1597, 200)
 
     // Verificar si el usuario puede pedir prestado otro libro
     val canBorrow = book.canBorrow(3) // Suponiendo que el usuario ha pedido prestado 3 libros
@@ -23,4 +23,16 @@ fun main() {
 
     // Imprimir la información del libro utilizando el Triple
     println("Here is your book '${bookTitleAuthorYear.first}' written by ${bookTitleAuthorYear.second} in ${bookTitleAuthorYear.third}.")
+
+
+    // Crear una instancia de Puppy
+    val puppy = Puppy()
+
+    // Dejar que el cachorro juegue con el libro hasta que no queden más páginas
+    while (book.pages > 0) {
+        puppy.playWithBook(book)
+    }
+
+    // Imprimir el peso del libro
+    println("Final weight of the book: ${book.weight()} grams")
 }
