@@ -1,19 +1,53 @@
 package org.example
 
 class Game {
-    var path = mutableListOf(Direction.START)
+    var path = mutableListOf<Direction>(Direction.START)
+    val location = Location(4, 4)
 
-    // Lambdas para mover en diferentes direcciones
-    val north = { path.add(Direction.NORTH) }
-    val south = { path.add(Direction.SOUTH) }
-    val east = { path.add(Direction.EAST) }
-    val west = { path.add(Direction.WEST) }
+    val north: () -> Boolean = {
+        path.add(Direction.NORTH)
+        location.updateLocation(Direction.NORTH)
+        println(location.getLocationDescription())
+        true
+    }
 
-    // Lambda para terminar el juego
-    val end = {
+    val south: () -> Boolean = {
+        path.add(Direction.SOUTH)
+        location.updateLocation(Direction.SOUTH)
+        println(location.getLocationDescription())
+        true
+    }
+
+    val east: () -> Boolean = {
+        path.add(Direction.EAST)
+        location.updateLocation(Direction.EAST)
+        println(location.getLocationDescription())
+        true
+    }
+
+    val west: () -> Boolean = {
+        path.add(Direction.WEST)
+        location.updateLocation(Direction.WEST)
+        println(location.getLocationDescription())
+        true
+    }
+
+    val end: () -> Boolean = {
         path.add(Direction.END)
-        println("Game Over: $path")
+        println("Perdisteee!: $path")
         path.clear()
         false
+    }
+
+    fun move(where: () -> Boolean) {
+        where.invoke()
+    }
+
+    fun makeMove(command: String?) {
+        if (command.equals("n")) move(north)
+        else if (command.equals("s")) move(south)
+        else if (command.equals("e")) move(east)
+        else if (command.equals("w")) move(west)
+        else move(end)
     }
 }
