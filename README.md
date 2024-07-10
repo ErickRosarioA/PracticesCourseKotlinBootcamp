@@ -39,7 +39,7 @@ Para clonar y trabajar con este repositorio, sigue estos pasos:
 
 1. **Clona el repositorio**:
    ```sh
-   git clone https://github.com/tu-usuario/PracticesCourseKotlinBootcamp.git
+   git clone https://github.com/ErickRosarioA/PracticesCourseKotlinBootcamp.git
 Abre el proyecto en Android Studio:
 
 Ve a File > Open y selecciona el directorio del proyecto clonado.
